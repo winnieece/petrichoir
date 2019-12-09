@@ -20,8 +20,6 @@
     <link rel="alternate" href="/atom.xml" title="Petrichoir" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
-  
   
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
@@ -46,16 +44,7 @@
       
     </div>
     <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/categories">Categories</a>
-        
-          <a class="main-nav-link" href="/about">About</a>
-        
-      </nav>
+    
       <nav id="sub-nav">
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="rss_feed"></a>
@@ -69,334 +58,664 @@
   </div>
 </header>
 
-      <html>
-  <div class="menu-container">
-
-     <div class="hex-wrapper">
-       <div class="hex-row  shift_left6">
-         <div class="hexagon" id="nav-empty">
-
-           <div class="face1"></div>
-           <div class="face2"></div>
-         </div>
-       </div>
-      <div class="hex-row  shift_left">
-        <div class="hexagon" id="nav-empty">
-
-          <div class="face1"></div>
-          <div class="face2"></div>
-        </div>
-        <div class="hexagon" id="nav-home">
-          Tech
-          <div class="face1"></div>
-          <div class="face2"></div>
-        </div>
-        <div class="hexagon" id="nav-photography">
-          Photography
-          <div class="face1"></div>
-          <div class="face2"></div>
-        </div>
-      </div>
-      <div class="hex-row">
-        <div class="hexagon" id="nav-empty">
-
-          <div class="face1"></div>
-          <div class="face2"></div>
-        </div>
-        <div class="hexagon" id="nav-sports">
-          Sports
-          <div class="face1"></div>
-          <div class="face2"></div>
-        </div>
-        <div class="center_hex" id="nav-aboutme">
-          About Me
-          <div class="face1"></div>
-          <div class="face2"></div>
-        </div>
-        <div class="hexagon" id="nav-travel">
-          Travel
-          <div class="face1"></div>
-          <div class="face2"></div>
-        </div>
-        <div class="hexagon" id="nav-empty">
-
-          <div class="face1"></div>
-          <div class="face2"></div>
-        </div>
-      </div>
-      <div class="hex-row shift_left">
-
-        <div class="hexagon" id="nav-movies">
-          Movies
-          <div class="face1"></div>
-          <div class="face2"></div>
-        </div>
-        <div class="hexagon" id="nav-book">
-          Books
-          <div class="face1"></div>
-          <div class="face2"></div>
-        </div>
-        <div class="hexagon" id="nav-mysticism">
-          Mysticism
-          <div class="face1"></div>
-          <div class="face2"></div>
-        </div>
-        <div class="hexagon" id="nav-empty">
-
-          <div class="face1"></div>
-          <div class="face2"></div>
-        </div>
-      </div>
-      <div class="hex-row shift_left2">
-        <div class="hexagon" id="nav-empty">
-
-          <div class="face1"></div>
-          <div class="face2"></div>
-        </div>
-      </div>
-    </div>
-  </div>
+      <h2>Menu</h2>
+      <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+</body>
 </html>
 
+
+
 <style>
-  body {
-  margin:0;
-  background-color: #fff;
-  }
-  .menu-container {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
 
-  .hex-wrapper {
-    width:980px;
-    text-align: center;
-    display: inline-block;
-
-  }
-
-  .hex-row {
-    clear: left;
-    margin-top:82px;
-  }
-  .shift_left {
-
-      margin-left: 98px;
-  }
-  .shift_left2 {
-
-      margin-left: 196px;
-  }
-
-  .shift_left6 {
-
-      margin-left: 588px;
-  }
-
-  .shift_right {
-      margin-right: 196px;
-  }
-
-  .hexagon {
-    float: left;
+body {
+    background: #fff;
+}
+#grid {
     position: relative;
-    margin: 30px 3px;
-    width: 190px;
-    height: 110px;
-    background-color: #b4c0d4;
-    background-position: center center;
-    z-index: 1;
-    /* Text styling */
-    line-height: 110px;
-    text-align: center;
-    font-family: serif;
-    font-size: 1.6em;
-    font-weight: bold;
-    letter-spacing: 6px;
-    color: #e1e3ed;
-    color: rgba(255, 255, 255, 1);
-    cursor: pointer;
-    transition: color 500ms ease, text-shadow 500ms ease, background-color 500ms ease, -webkit-transform 1s ease-in-out;
-  }
+    width: 85%;
+    height: 100%;
+    top:5%;
+    bottom: 0;
+    margin: 0 auto;
+    padding-bottom: 10%;
+    padding: 0; /* Clears unordered list default of 40px */
+}
 
-  .hexagon:hover {
-    color: #fff;
-    text-shadow: 0 0 10px white;
-    background-color: #666;
-  }
-  .hexagon .face1,
-  .hexagon .face2 {
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#grid li {
+    list-style-type: none;
+    position: relative;
+    float: left;
+    width: 11.9387755102%;
+    padding: 0 0 13.7861149078% 0;
+    -o-transform: rotate(-60deg) skewY(30deg);
+    -moz-transform: rotate(-60deg) skewY(30deg);
+    -webkit-transform: rotate(-60deg) skewY(30deg);
+    -ms-transform: rotate(-60deg) skewY(30deg);
+    transform: rotate(-60deg) skewY(30deg);
+    background: #fff;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#grid li .hexagon {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    background: #708c6c;
+    opacity: 0.5;
+    -o-transform: skewY(-30deg) rotate(60deg);
+    -moz-transform: skewY(-30deg) rotate(60deg);
+    -webkit-transform: skewY(-30deg) rotate(60deg);
+    -ms-transform: skewY(-30deg) rotate(60deg);
+    transform: skewY(-30deg) rotate(60deg);
     overflow: hidden;
-    background: inherit;
-    z-index: -1;
-    backface-visibility: hidden;
-  }
-  .hexagon .face1:before,
-  .hexagon .face2:before {
-    content: '';
-    position: absolute;
-    width: 220px;
-    height: 220px;
-    background: inherit;
-  }
-  .hexagon .face1 { transform: rotate(60deg); }
-  .hexagon .face1:before {
-    left: 0;
-    transform-origin: left top;
-    transform: rotate(-60deg) translate(-110px, 0);
-  }
-  .hexagon .face2 { transform: rotate(-60deg); }
-  .hexagon .face2:before {
-    right: 0;
-    transform-origin: right top;
-    transform: rotate(60deg) translate(110px, 0);
-  }
-  /*midle hex*/
-  .center_hex {
-    float: left;
-    position: relative;
-    margin: 30px 3px;
-    width: 190px;
-    height: 110px;
-    background-color: #808bc2;
-    background-position: center center;
-    z-index: 1;
+
     /* Text styling */
-    line-height: 110px;
+    line-height:850%;
     text-align: center;
-    font-family: serif;
-    font-size: 1.6em;
+    font-family: monospace;
+    font-size: 400%;
     font-weight: bold;
-    letter-spacing: 6px;
-    color: #e1e3ed;
+    letter-spacing: 1%;
+    color: #fff;
     color: rgba(255, 255, 255, 1);
     cursor: pointer;
     transition: color 500ms ease, text-shadow 500ms ease, background-color 500ms ease, -webkit-transform 1s ease-in-out;
-  }
+    -webkit-transition: color 500ms ease, text-shadow 500ms ease, background-color 500ms ease, -webkit-transform 1s ease-in-out;
+    -o-transition: color 500ms ease, text-shadow 500ms ease, background-color 500ms ease, -webkit-transform 1s ease-in-out;
+    -ms-transition: color 500ms ease, text-shadow 500ms ease, background-color 500ms ease, -webkit-transform 1s ease-in-out;
+}
 
-  .center_hex:hover {
-    color: #fff;
-    text-shadow: 0 0 10px white;
-    background-color: #666;
-  }
-  .center_hex .face1,
-  .center_hex .face2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background: inherit;
-    z-index: -1;
-    backface-visibility: hidden;
-  }
-  .center_hex .face1:before,
-  .center_hex .face2:before {
-    content: '';
-    position: absolute;
-    width: 220px;
-    height: 220px;
-    background: inherit;
-  }
-  .center_hex .face1 { transform: rotate(60deg); }
-  .center_hex .face1:before {
-    left: 0;
-    transform-origin: left top;
-    transform: rotate(-60deg) translate(-110px, 0);
-  }
-  .center_hex .face2 { transform: rotate(-60deg); }
-  .center_hex .face2:before {
-    right: 0;
-    transform-origin: right top;
-    transform: rotate(60deg) translate(110px, 0);
-  }
+#grid li .hexagon:hover {
+  color: #fff;
+  background-color: #446344;
+}
+
+#grid li * {
+    visibility: visible;
+}
+
+
+#grid li:nth-child(n) {
+  margin: 0 0.1%;
+}
+
+#grid li:nth-child(1), #grid li:nth-child(2), #grid li:nth-child(5), #grid li:nth-child(25), #grid li:nth-child(15), #grid li:nth-child(10), #grid li:nth-child(17) {
+  background-color: #6a756a;
+  opacity: 0.5;
+}
+
+#grid li:nth-child(24){
+  margin-top: -5.93877550993%;
+  margin-bottom: -5.93877550993%;
+  -o-transform: translateX(-100%) translateY(97%) rotate(-60deg) skewY(30deg);
+  -moz-transform: translateX(-100%) translateY(97%) rotate(-60deg) skewY(30deg);
+  -webkit-transform: translateX(-100%) translateY(97%) rotate(-60deg) skewY(30deg);
+  -ms-transform: translateX(-100%) translateY(97%) rotate(-60deg) skewY(30deg);
+  transform: translateX(-253%) translateY(160%) rotate(-60deg) skewY(30deg);
+}
+
+#grid li:nth-child(25){
+  margin-top: -5.93877550993%;
+  margin-bottom: -5.93877550993%;
+  -o-transform: translateX(150%) translateY(97%) rotate(-60deg) skewY(30deg);
+  -moz-transform: translateX(150%) translateY(97%) rotate(-60deg) skewY(30deg);
+  -webkit-transform: translateX(-100%) translateY(97%) rotate(-60deg) skewY(30deg);
+  -ms-transform: translateX(-100%) translateY(97%) rotate(-60deg) skewY(30deg);
+  transform: translateX(152%) translateY(146%) rotate(-60deg) skewY(30deg);
+}
+
+
+#grid li:nth-child(9), #grid li:nth-child(10), #grid li:nth-child(11), #grid li:nth-child(12), #grid li:nth-child(13), #grid li:nth-child(14),#grid li:nth-child(15){
+    margin-top: -5.93877550993%;
+    margin-bottom: -5.93877550993%;
+    -o-transform: translateX(50%) translateY(20%) rotate(-60deg) skewY(30deg);
+    -moz-transform: translateX(50%) translateY(20%) rotate(-60deg) skewY(30deg);
+    -webkit-transform: translateX(50%) translateY(20%) rotate(-60deg) skewY(30deg);
+    -ms-transform: translateX(50%) translateY(20%) rotate(-60deg) skewY(30deg);
+    transform: translateX(50%) translateY(20%) rotate(-60deg) skewY(30deg);
+}
+
+#grid li:nth-child(17), #grid li:nth-child(18), #grid li:nth-child(19), #grid li:nth-child(20), #grid li:nth-child(21), #grid li:nth-child(22),#grid li:nth-child(23) {
+    margin-top: -5.93877550993%;
+    margin-bottom: -5.93877550993%;
+    -o-transform: translateY(83%) rotate(-60deg) skewY(30deg);
+    -moz-transform:translateY(83%) rotate(-60deg) skewY(30deg);
+    -webkit-transform: translateY(83%) rotate(-60deg) skewY(30deg);
+    -ms-transform: translateY(83%) rotate(-60deg) skewY(30deg);
+    transform: translateY(83%) rotate(-60deg) skewY(30deg);
+}
+
+#grid li:nth-child(16) {
+    margin-top: -5.93877550993%;
+    margin-bottom: -5.93877550993%;
+    -o-transform: translateY(78.05%) rotate(-60deg) skewY(30deg);
+    -moz-transform: translateY(78.05%) rotate(-60deg) skewY(30deg);
+    -webkit-transform: translateY(78.05%) rotate(-60deg) skewY(30deg);
+    -ms-transform: translateY(78.05%) rotate(-60deg) skewY(30deg);
+    transform: translateY(97%) rotate(-60deg) skewY(30deg);
+}
+
+
 </style>
+<body>
+    <ul id="grid" class="clear">
+        <li>
+              <div class="hexagon"></div>
+        </li>
+        <li>
+              <div class="hexagon"></div>
+        </li>
+        <li>
+              <div class="hexagon"></div>
+        </li>
+        <li>
+              <div class="hexagon">Tech</div>
+        </li>
+        <li>
+              <div class="hexagon"></div>
+        </li>
+        <li>
+              <div class="hexagon">Travel</div>
+        </li>
+        <li>
+              <div class="hexagon"></div>
+        </li>
+        <li>
+              <div class="hexagon"></div>
+        </li>
+        <li>
+              <div class="hexagon"></div>
+        </li>
+        <li>
+              <div class="hexagon"></div>
+        </li>
+        <li>
+              <div class="hexagon"></div>
+        </li>
+        <li>
+              <div class="hexagon">About Me</div>
+        </li>
+        <li>
+          <a href="photography">
+              <div class="hexagon">Photography</div>
+          </a>
+        </li>
+        <li>
+              <div class="hexagon"></div>
+        </li>
+        <li>
+              <div class="hexagon"></div>
+        </li>
+        <li>
+            <div class="hexagon"></div>
+        </li>
+        <li>
 
-      <div class="outer">
-        <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/11/29/hello-world/" class="article-date">
-  <time datetime="2019-11-30T03:32:27.234Z" itemprop="datePublished">2019-11-29</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      Hello World
-    </h1>
-  
+              <div class="hexagon"></div>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span></pre></td></tr></table></figure>
+        </li>
+        <li>
+            <div class="hexagon"></div>
+        </li>
+        <li>
+            <div class="hexagon"></div>
+        </li>
+        <li>
+            <div class="hexagon"></div>
+        </li>
+        <li>
+            <div class="hexagon"></div>
+        </li>
+        <li>
+            <div class="hexagon"></div>
+        </li>
+        <li>
+            <div class="hexagon"></div>
+        </li>
+        <li>
+            <div class="hexagon"></div>
+        </li>
+        <li>
+            <div class="hexagon"></div>
+        </li>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo server</span></pre></td></tr></table></figure>
+    </ul>
+</body>
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo generate</span></pre></td></tr></table></figure>
+      <h2>Adventure</h2>
+      <!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset='utf-8' />
 
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span></pre></td></tr></table></figure>
+	    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.js'></script>
+	    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.css' rel='stylesheet' />
+	    <style>
+			  body {
+					margin: 0;
+					padding: 0;
+				}
+				#map{
+					position:relative;
+			    left:0%;
+			    width:100%;
+          height:70%;
+					top:0;
+          bottom:0;
+				}
 
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+			</style>
+	</head>
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/29/hello-world/" data-id="ck3xsvrpz00009wti89dwd073" class="article-share-link">share</a>
-      
-      
-    </footer>
-  </div>
-  
-    
-<nav id="article-nav">
-  
-    <a href="/2019/11/29/test-my-site/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">newer</strong>
-      <div class="article-nav-title">
-        
-          test_my_site
-        
-      </div>
-    </a>
-  
-  
-</nav>
+	<body>
+		<style>
+			.mapboxgl-popup {
+				max-width: 400px;
+				font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+			}
+		</style>
 
-  
-</article>
+		<div id='map'> </div>
 
-</section>
-       
-         <aside id="sidebar">
-  
-    
+  	<script>
+  	mapboxgl.accessToken = 'pk.eyJ1Ijoid2lubmlleWFubiIsImEiOiJjazNuZXo3eXQxNWx2M2RuM2RmMTVwazh2In0.VLm4J2LGayYH2q73czljhg';
 
-  
-</aside>
-       
-      </div>
+  	// This adds the map to your page
+  	var map = new mapboxgl.Map({
+      // container id specified in the HTML
+      container: 'map',
+      // style URL
+      style: 'mapbox://styles/mapbox/light-v10',
+      // initial position in [long, lat] format
+      center: [ 141.738195, 31.840972],
+      // initial zoom
+      zoom: 3,
+    });
+
+		//map.addControl(new mapboxgl.AttributionControl({compact:true}), 'bottom-left');
+
+    var places = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              116.407394,
+              39.904202
+            ]
+          },
+          "properties": {
+            "city": "Beijing",
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              113.419724,
+              22.869940
+            ]
+          },
+					"properties": {
+            "city": "Guangdong",
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -70.669266,
+              -33.448891
+            ]
+          },
+					"properties": {
+            "city": "Santiago",
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -69.132851,
+              -23.863419
+            ]
+          },
+					"properties": {
+            "city": "Atacama Desert",
+          }
+        },
+				{
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              121.473701,
+              31.230391
+            ]
+          },
+					"properties": {
+            "city": "Shanghai",
+          }
+        },
+
+				{
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -109.349686,
+              -27.112722
+            ]
+          },
+					"properties": {
+            "city": "Easter Island",
+          }
+        },
+
+				{
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -77.036873,
+              38.907192
+            ]
+          },
+					"properties": {
+            "city": "Washington D.C.",
+          }
+        },
+
+				{
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.005974,
+              40.712776
+            ]
+          },
+					"properties": {
+            "city": "New York",
+          }
+        },
+
+				{
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -123.120735,
+              49.282730
+            ]
+          },
+					"properties": {
+            "city": "Vancouver",
+          }
+        },
+
+				//
+				{
+					"type": "Feature",
+					"geometry": {
+						"type": "Point",
+						"coordinates": [
+							5.726250,
+							58.964432
+						]
+					},
+					"properties": {
+						"city": "Norway",
+					}
+				},
+				{
+					"type": "Feature",
+					"geometry": {
+						"type": "Point",
+						"coordinates": [
+							22.268829,
+							60.451462
+						]
+					},
+					"properties": {
+						"city": "Turku",
+					}
+				},
+				{
+					"type": "Feature",
+					"geometry": {
+						"type": "Point",
+						"coordinates": [
+							18.068581,
+							59.329323
+						]
+					},
+					"properties": {
+						"city": "Stockholm",
+					}
+				},
+				{
+					"type": "Feature",
+					"geometry": {
+						"type": "Point",
+						"coordinates": [
+							13.194710,
+							55.702888
+						]
+					},
+					"properties": {
+						"city": "Lund",
+					}
+				},
+
+				{
+					"type": "Feature",
+					"geometry": {
+						"type": "Point",
+						"coordinates": [
+							-71.207977,
+							46.813877
+						]
+					},
+					"properties": {
+						"city": "Quebec",
+					}
+				},
+
+				{
+					"type": "Feature",
+					"geometry": {
+						"type": "Point",
+						"coordinates": [
+							-73.567253,
+							45.501690
+						]
+					},
+					"properties": {
+						"city": "Montreal",
+					}
+				},
+
+				{
+					"type": "Feature",
+					"geometry": {
+						"type": "Point",
+						"coordinates": [
+							-79.383186,
+							43.653225
+						]
+					},
+					"properties": {
+						"city": "Toronto",
+					}
+				},
+
+				{
+					"type": "Feature",
+					"geometry": {
+						"type": "Point",
+						"coordinates": [
+							-116.125191,
+							51.183842
+						]
+					},
+					"properties": {
+						"city": "Banff",
+					}
+				},
+
+				{
+					"type": "Feature",
+					"geometry": {
+						"type": "Point",
+						"coordinates": [
+							48.1351,
+							11.5820
+						]
+					},
+					"properties": {
+						"city": "Munich",
+					}
+				},
+
+				{
+					"type": "Feature",
+					"geometry": {
+						"type": "Point",
+						"coordinates": [
+							13.4050,
+							52.5200
+						]
+					},
+					"properties": {
+						"city": "Berlin",
+					}
+				},
+
+				{
+					"type": "Feature",
+					"geometry": {
+						"type": "Point",
+						"coordinates": [
+							-0.127758,
+							51.507351
+						]
+					},
+					"properties": {
+						"city": "London",
+					}
+				},
+
+				{
+					"type": "Feature",
+					"geometry": {
+						"type": "Point",
+						"coordinates": [
+							12.568337,
+							55.676098
+						]
+					},
+					"properties": {
+						"city": "Copenhagen",
+					}
+				},
+
+				{
+					"type": "Feature",
+					"geometry": {
+						"type": "Point",
+						"coordinates": [
+							4.355710,
+							50.845539
+						]
+					},
+					"properties": {
+						"city": "Brussel",
+					}
+				}
 
 
+        ]
+      };
+  	// This adds the data to the map
+  	map.on('load', function () {
+  		// Add the data to your map as a layer
+      map.addLayer({
+        "id": "locations",
+        "type": "symbol",
+        // Add a GeoJSON source containing place coordinates and information.
+        "source": {
+          "type": "geojson",
+          "data": places
+        },
+        "layout": {
+          "icon-image": "veterinary-15",
 
-        <footer id="footer">
+          "icon-allow-overlap": true,
+        }
+      });
+
+
+		var popup = new mapboxgl.Popup({
+			closeButton: false,
+			closeOnClick: false
+		});
+
+		map.on('mouseenter', 'locations', function(e) {
+		// Change the cursor style as a UI indicator.
+			map.getCanvas().style.cursor = 'pointer';
+
+			var coordinates = e.features[0].geometry.coordinates.slice();
+			var description = e.features[0].properties.description;
+
+		// Ensure that if the map is zoomed out such that multiple
+		// copies of the feature are visible, the popup appears
+		// over the copy being pointed to.
+			while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+				coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+			}
+
+		// Populate the popup and set its coordinates
+		// based on the feature found.
+			popup.setLngLat(coordinates)
+					.setHTML(description)
+					.addTo(map);
+		});
+
+		map.on('mouseleave', 'locations', function() {
+			map.getCanvas().style.cursor = '';
+			popup.remove();
+		});
+	});
+</script>
+</body>
+</html>
+
+
+      <footer id="footer">
   
   <div class="outer">
     <div id="footer-info" class="inner">
@@ -411,9 +730,9 @@
   
     <a href="/" class="mobile-nav-link">Home</a>
   
-    <a href="/categories" class="mobile-nav-link">Categories</a>
+    <a href="/about" class="mobile-nav-link">About Me</a>
   
-    <a href="/about" class="mobile-nav-link">About</a>
+    <a href="/photography" class="mobile-nav-link">Photography</a>
   
 </nav>
     
@@ -432,4 +751,16 @@
   </div>
 
 </body>
+
+<style>
+  h2{
+      font-family: Monospace;
+      padding-top: 8%;
+      padding-bottom: 5%;
+      color: #000;
+      font-size: 400%;
+      font-weight:bold;
+      text-align: center;
+  }
+</style>
 </html>
